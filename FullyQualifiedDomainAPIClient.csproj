@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.FullyQualifiedDomain</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/fullyqualifieddomain</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Fully Qualified Domain Name is a simple tool for getting the fully qualified domain name (FQDN) of an IP. It returns the fully qualified domain name of the ip provided.</Description>
+    <RepositoryUrl>https://github.com/apiverve/fullyqualifieddomain-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fully qualified domain name; fully qualified domain name api; fully qualified domain name tool; fully qualified domain name software; fully qualified domain name service; fully qualified domain name library; fully qualified domain name sdk; fully qualified domain name code; fully qualified domain name script; fully qualified domain name program; fully qualified domain name application; fully qualified domain name app; fully qualified domain name utility; fully qualified domain name helper; fully qualified domain name helper tool; fully qualified domain name helper software; fully qualified domain name helper service; fully qualified domain name helper library; fully qualified domain name helper sdk; fully qualified domain name helper code; fully qualified domain name helper script; fully qualified domain name helper program; fully qualified domain name helper application; fully qualified domain name helper app; fully qualified domain name helper utility; fully qualified domain name helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
