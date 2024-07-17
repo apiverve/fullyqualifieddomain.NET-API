@@ -6,17 +6,17 @@ namespace APIVerve
 {
 public class data
 {
-    [JsonProperty("ip")]
-    public string ip { get; set; }
-
     [JsonProperty("baseDomain")]
     public string baseDomain { get; set; }
+
+    [JsonProperty("detected")]
+    public bool detected { get; set; }
 
     [JsonProperty("fqdn")]
     public string fqdn { get; set; }
 
-    [JsonProperty("detected")]
-    public bool detected { get; set; }
+    [JsonProperty("ip")]
+    public string ip { get; set; }
 
 }
 
